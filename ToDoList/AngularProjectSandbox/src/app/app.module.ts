@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { TaskComponent } from './tasks/task/task.component';
 import { NewTaskComponent } from './tasks/new-task/new-task.component';
+import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NewTaskComponent } from './tasks/new-task/new-task.component';
   
     TasksComponent,
     TaskComponent,
-    NewTaskComponent
+    NewTaskComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
